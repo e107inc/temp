@@ -1,5 +1,5 @@
 <?php
-
+// A code change.
 if (!defined('e107_INIT'))
 {
 	require_once("class2.php");
