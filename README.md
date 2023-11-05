@@ -42,6 +42,17 @@
    * A registered domain name
    * Access to a server control panel (such as cPanel)
 
+### Version Guidance
+
+
+| Version | Status | Last Release | PHP Version |
+|:-------:|:------:|:------------:|:-----------:|
+| 1.0.x | EOL | [v1.0.4][7] | >= 5.6 |
+| 1.0.4 | EOL | [v1.0.4][9] | >= 5.6 |
+| 2.x.x | EOL | [v2.3.3][9] | >= 7.4 |
+| 2.3.2 | EOL | [v2.3.2][10] | ^7.4 | 8.1.* |
+| 2.3.3 | Latest | [v2.3.3][11] | ^7.4 | ^8.1.* | ^8.2.12 |
+
 
 ## Installation 
 
