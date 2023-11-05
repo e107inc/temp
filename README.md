@@ -29,7 +29,7 @@
 
    ### Minimum
 
-   * A web server (Apache or Microsoft IIS) running PHP 5.6 or newer
+   * A web server (Apache or Microsoft IIS) running PHP 7.4 or newer
    * MySQL 4.x or newer, or MariaDB
    * FTP access to your web server and an FTP client (such as FileZilla)
    * Username and password to your MySQL database
