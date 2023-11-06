@@ -3,7 +3,7 @@ name: Build Release
 on:
   push:
   pull_request:
-  release
+  release:
 
 
 jobs:
