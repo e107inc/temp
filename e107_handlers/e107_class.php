@@ -4744,6 +4744,12 @@ class e107
 		}
 	//	self::ini_set('arg_separator.output',     '&amp;'); // non-standard and bad for third-party script compatibility. @see https://github.com/e107inc/e107/issues/3116
 //		self::ini_set('session.use_only_cookies', 1);
+
+if(headers_sent())
+{
+	var_dump(get_headers()); 
+}
+
 		self::ini_set('session.use_trans_sid',    0);
 		self::ini_set('session.cookie_httponly',  1); // cookie won't be accessible by scripting languages, such as JavaScript. Can effectively help to reduce identity theft through XSS attacks
 
