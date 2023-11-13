@@ -4747,7 +4747,12 @@ class e107
 
 if(headers_sent())
 {
-	var_dump(get_headers()); 
+	$headers = headers_list();
+	foreach ($headers as $header)
+	{
+	    echo $header . "\n";
+	}
+
 }
 
 		self::ini_set('session.use_trans_sid',    0);
