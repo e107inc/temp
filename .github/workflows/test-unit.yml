@@ -19,10 +19,6 @@ jobs:
           - image: php:8.1
           - image: php:8.2
         db:
-          - image: mysql:5.5
-          - image: bitnami/mysql:8.0
-          - image: mariadb:10.0
-          - image: mariadb:10.6
           - image: mariadb:10.11
     runs-on: ubuntu-latest
     container:
