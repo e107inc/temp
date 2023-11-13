@@ -16,9 +16,6 @@ jobs:
       fail-fast: false
       matrix:
         interpreter:
-          - image: php:5.6
-          - image: php:7.0
-          - image: php:7.4
           - image: php:8.1
           - image: php:8.2
         db:
