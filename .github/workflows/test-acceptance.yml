@@ -2,10 +2,6 @@ name: Acceptance Tests
 
 on:
   push:
-    paths-ignore:
-      - '**.md'
-    tags-ignore:
-      - '*'
   pull_request:
 
 jobs:
