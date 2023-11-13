@@ -129,9 +129,9 @@ jobs:
       continue-on-error: true
 
     - name: Build Codeception
-      run: ./vendor/bin/codecept build
+      run: php ./vendor/bin/codecept build
       continue-on-error: true
-    
+
     - name: Run unit tests
       run: |
         if [ $(php -r 'printf(extension_loaded("xdebug") ? 1 : 0);') = '1' ]
