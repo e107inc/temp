@@ -130,7 +130,8 @@ jobs:
 
     - name: Build Codeception
       run: php ./vendor/bin/codecept build
-      continue-on-error: true
+      working-directory: ./e107_tests/
+      continue-on-error: false
 
     - name: Run unit tests
       run: |
