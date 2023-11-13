@@ -4746,15 +4746,6 @@ class e107
 //		self::ini_set('session.use_only_cookies', 1);
 
 
-	$headers = headers_list();
-	echo "\n--- Headers ---\n";
-	foreach ($headers as $header)
-	{
-	    echo $header . "\n";
-	}
-
-
-
 		self::ini_set('session.use_trans_sid',    0);
 		self::ini_set('session.cookie_httponly',  1); // cookie won't be accessible by scripting languages, such as JavaScript. Can effectively help to reduce identity theft through XSS attacks
 
